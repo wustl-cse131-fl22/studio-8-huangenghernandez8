@@ -17,13 +17,11 @@ public class Date {
 		this.year = year;
 	}
 	
-	
 
     @Override
 	public String toString() {
 		return "Date: " + month + "/" + day + "/" + year;
 	}
-
 
 
 	public static void main(String[] args) {
