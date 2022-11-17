@@ -16,9 +16,20 @@ public class Date {
 		this.day = day;
 		this.year = year;
 	}
+	
+	
 
-    public static void main(String[] args) {
+    @Override
+	public String toString() {
+		return "Date: " + month + "/" + day + "/" + year;
+	}
 
+
+
+	public static void main(String[] args) {
+    	Date d1 = new Date(12, 11, 2022);
+    	//d1.toStrin
+    	System.out.println(d1);
     }
 
 }
